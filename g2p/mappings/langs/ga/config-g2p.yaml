@@ -1,5 +1,5 @@
 <<: &shared
-  language_name: Irish Gaelic
+  language_name: Irish
 mappings:
   - display_name: Irish Gaelic to IPA
     in_lang: ga

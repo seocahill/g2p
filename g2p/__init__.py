@@ -76,6 +76,7 @@ def make_g2p(  # noqa: C901
     g2p.deprecation.handle_tok_lang_deprecation(tok_lang)
 
     # Check in_lang is a node in network
+
     if in_lang not in LANGS_NETWORK.nodes:
         LOGGER.error(f"No lang called '{in_lang}'. Please try again.")
         raise InvalidLanguageCode(in_lang)
