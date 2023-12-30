@@ -1,0 +1,13 @@
+<<: &shared
+  language_name: Irish Gaelic
+mappings:
+  - display_name: Irish Gaelic to IPA
+    in_lang: ga
+    out_lang: ga-ipa
+    type: mapping
+    case_sensitive: false
+    rule_ordering: apply-longest-first
+    authors:
+      - Seosamh Ó Cathail
+    rules_path: ga_to_ipa.json
+    <<: *shared
